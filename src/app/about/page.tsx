@@ -137,9 +137,8 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent"></div>
               <div className="absolute bottom-8 left-8 right-8">
                 <div className="bg-white/90 backdrop-blur-sm p-6 rounded-2xl">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">탁일래 대표이사</h3>
                   <p className="text-gray-600 text-sm">
-                    "(주)지우건설은 1988년 설립 이래 끊임없는 혁신과 가치장조를 통해 더 나은 미래 건설을 위한 노력을 진행하고 있습니다."
+                    "지우건설은 1998년 정보건설로 출발하여, 끊임없는 혁신과 가치 창출을 바탕으로 더 나은 미래 건설을 향해 나아가고 있습니다."
                   </p>
                 </div>
               </div>

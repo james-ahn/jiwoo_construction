@@ -11,7 +11,7 @@ export interface CaseStudy {
 export const casesData: CaseStudy[] = [
   {
     id: "asphalt-paving-01",
-    title: "주차장 조성 및 부대 토목공사",
+    title: "스타벅스 주차장 조성 및 부대토목공사",
     category: "지반조성 포장공사업",
     date: "2024. 08",
     thumbnail: "/case-1.png",
@@ -22,7 +22,7 @@ export const casesData: CaseStudy[] = [
   },
   {
     id: "groundwork-industrial-02",
-    title: "도로 포장 공사",
+    title: "장유여객터미널 도로 포장 공사",
     category: "도로건설업",
     date: "2023. 10",
     thumbnail: "/case-2.png",
@@ -33,7 +33,7 @@ export const casesData: CaseStudy[] = [
   },
   {
     id: "concrete-foundation-03",
-    title: "주차장부지 조성공사",
+    title: "장전제일교회 주차장부지 조성공사",
     category: "지반조성 포장공사업",
     date: "2023. 05",
     thumbnail: "/case-3.png",
