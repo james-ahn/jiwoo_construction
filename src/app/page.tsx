@@ -117,11 +117,11 @@ export default function Home() {
                 <HardHat size={32} />
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-4">
-                콘크리트 및 철근공사업
+                건축자재 도매업
               </h4>
               <p className="text-gray-600 leading-relaxed">
-                안전의 최전선에서 구조물의 수명을 결정짓는 골조 공사를 수행합니다. 정밀한
-                철근 배근 기술과 빈틈없는 콘크리트 타설을 원칙으로 합니다.
+                건축 및 건설 현장에서 필요로 하는 다양한 자재를 전문적으로 취급합니다.
+                고품질의 자재를 안정적으로 공급하여 고객사의 공사 일정 준수와 품질 확보에 기여합니다.
               </p>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function Home() {
                     </li>
                     <li className="flex items-center gap-2">
                       <div className="w-1.5 h-1.5 bg-blue-500 rounded-full"></div>
-                      콘크리트 및 철근공사업
+                      건축자재 도매업
                     </li>
                   </ul>
                 </div>

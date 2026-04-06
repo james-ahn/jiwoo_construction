@@ -10,38 +10,67 @@ const historyData = [
   {
     year: "2024",
     events: [
-      { month: "12", desc: "주요 고속도로 유지보수 연간 단가계약 체결" },
-      { month: "10", desc: "친환경 아스콘 포장 공법 신기술 인증 획득" },
-      { month: "03", desc: "ISO 45001 (안전보건경영시스템) 인증 취득" },
+      { month: "12", desc: "대동대학교 교내 절삭포장공사" },
+    ],
+  },
+  {
+    year: "2024",
+    events: [
+      { month: "11", desc: "천성항 주차장 정비공사" },
+    ],
+  },
+  {
+    year: "2024",
+    events: [
+      { month: "10", desc: "경산시 사동 스타벅스 신축공사 중 주차장 조성 및 부대토목공사" },
+    ],
+  },
+  {
+    year: "2024",
+    events: [
+      { month: "07", desc: "부산도시가스 신규사옥 리뉴얼 공사 중 주차장 조성 및 부대토목공사" },
+    ],
+  },
+  {
+    year: "2024",
+    events: [
+      { month: "01", desc: "양산 북정동 물류센터 신축공사 중 내외부 도색 및 포장공사" },
     ],
   },
   {
     year: "2023",
     events: [
-      { month: "11", desc: "국토교통부 우수시공업체 표창 수상" },
-      { month: "07", desc: "스마트 건설기술 도입 및 3D 머신컨트롤 포장 장비 확충" },
-      { month: "02", desc: "본사 확장 이전 및 기술연구전담부서 설립" },
+      { month: "08", desc: "멀티플렉스 신축공사 중 도로포장 및 부대토목공사" },
     ],
   },
   {
-    year: "2021",
+    year: "2023",
     events: [
-      { month: "09", desc: "대한전문건설협회 도로포장공사업 부문 수주대상 수상" },
-      { month: "05", desc: "조달청 우수물품 지정 (재생아스콘 분야)" },
+      { month: "05", desc: "장전제일교회주차장 부지 조성공사" },
     ],
   },
   {
-    year: "2018",
+    year: "2022",
     events: [
-      { month: "10", desc: "지반조성 및 도로건설업 면허 갱신 및 자본금 증자" },
-      { month: "04", desc: "관급공사 적격심사 우수업체 선정" },
+      { month: "10", desc: "부산외곽순한고속도로 부분 절삭포장공사" },
     ],
   },
   {
-    year: "2015",
+    year: "2022",
     events: [
-      { month: "06", desc: "포장공사업, 철근콘크리트공사업 전문건설업 면허 취득" },
-      { month: "03", desc: "주식회사 지우건설 법인 설립" },
+      { month: "06", desc: "신대구고속도로 절삭포장공사" },
+    ],
+  },
+  {
+    year: "2022",
+    events: [
+      { month: "07", desc: "주식회사 지우건설 법인 설립" },
+    ],
+  },
+  {
+    year: "1998",
+    events: [
+      { month: "11", desc: "정보건설 설립" },
     ],
   },
 ];
@@ -53,7 +82,7 @@ export default function AboutPage() {
       <section className="relative h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden bg-gray-950">
         <div className="absolute inset-0 opacity-40">
           <Image
-            src="/case-2.png" // 기존에 만든 지반조성 배경 임시 활용
+            src="/test-2.png" // 기존에 만든 지반조성 배경 임시 활용
             alt="지우건설 전경"
             fill
             className="object-cover"
@@ -80,7 +109,7 @@ export default function AboutPage() {
                 <span className="text-blue-600">최상의 가치</span>를 실현합니다.
               </h2>
               <p className="text-gray-600 leading-relaxed mb-8 text-lg">
-                <strong className="text-gray-900">주식회사 지우건설</strong>은 아스팔트 포장, 도로 건설, 지반 조성, 그리고 콘크리트 및 철근 공사에 이르기까지 토목 건설 전반에 걸쳐 탄탄한 기술력과 풍부한 시공 경험을 축적해왔습니다.
+                <strong className="text-gray-900">주식회사 지우건설</strong>은 아스팔트 포장, 도로 건설, 지반 조성, 그리고 건축자재 도매업에 이르기까지 토목 건설 전반에 걸쳐 탄탄한 기술력과 풍부한 시공 경험을 축적해왔습니다.
                 안전과 품질을 타협하지 않는 원칙으로 고객의 신뢰에 보답하며, 지속 가능한 미래 건설 사업을 선도해 나가겠습니다.
               </p>
 
@@ -100,7 +129,7 @@ export default function AboutPage() {
 
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
               <Image
-                src="/case-1.png"
+                src="/test-1.png"
                 alt="지우건설 시공 현장"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -110,7 +139,7 @@ export default function AboutPage() {
                 <div className="bg-white/90 backdrop-blur-sm p-6 rounded-2xl">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">탁일래 대표이사</h3>
                   <p className="text-gray-600 text-sm">
-                    "변화하는 환경 속에서도 흔들리지 않는 품질과 신뢰로 보답하겠습니다."
+                    "(주)지우건설은 1988년 설립 이래 끊임없는 혁신과 가치장조를 통해 더 나은 미래 건설을 위한 노력을 진행하고 있습니다."
                   </p>
                 </div>
               </div>
