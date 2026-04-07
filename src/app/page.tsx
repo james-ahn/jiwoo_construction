@@ -234,13 +234,15 @@ export default function Home() {
                       <div className="w-1.5 h-1.5 bg-blue-500 rounded-full"></div>
                       지반조성 포장공사업
                     </li>
+                  </ul>
+                  <br />
+                  <h5 className="text-sm font-bold text-gray-900 mb-4 bg-gray-100 inline-block px-3 py-1 rounded-md">
+                    업무분야
+                  </h5>
+                  <ul className="text-sm font-medium text-gray-600 space-y-2">
                     <li className="flex items-center gap-2">
                       <div className="w-1.5 h-1.5 bg-blue-500 rounded-full"></div>
-                      도로건설업
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-blue-500 rounded-full"></div>
-                      건축자재 도매업
+                      부대토목(경계석, 보도블럭 등)
                     </li>
                   </ul>
                 </div>
@@ -293,21 +295,6 @@ export default function Home() {
                     </span>
                   </div>
                 </div>
-
-                <a
-                  href="tel:010-9833-7731"
-                  className="flex items-center gap-4 p-3 rounded-xl hover:bg-gray-50 transition-colors group"
-                >
-                  <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-colors text-blue-600">
-                    <Smartphone size={20} />
-                  </div>
-                  <div>
-                    <span className="block text-xs font-bold text-gray-500 mb-0.5">Mobile</span>
-                    <span className="text-base font-bold text-gray-900">
-                      010-9833-7731
-                    </span>
-                  </div>
-                </a>
 
                 <a
                   href="mailto:jiwoo_asp@kakao.com"
